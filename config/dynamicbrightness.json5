@@ -1,0 +1,9 @@
+{
+	// How the brightness adapts to the environment
+	"eyeAdaption": {
+		// How much the brightness will change depending on the environment
+		"adaptionRange": 50,
+		// How quickly will the brightness adapt to the environment
+		"adaptationSpeed": 12
+	}
+}
