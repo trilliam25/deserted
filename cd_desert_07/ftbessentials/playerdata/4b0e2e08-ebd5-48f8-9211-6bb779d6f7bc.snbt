@@ -1,0 +1,22 @@
+{
+	muted: false
+	fly: false
+	god: false
+	nick: "HexBlight"
+	last_seen: { dim: "minecraft:overworld", x: 1442, y: 99, z: 4581, time: 1724015421169L, xRot: 37.875076f, yRot: -136.99286f }
+	recording: "none"
+	teleport_history: [
+		{ dim: "minecraft:overworld", x: 1232, y: 58, z: 669, time: 1724013538687L }
+		{ dim: "minecraft:overworld", x: 492, y: 122, z: 617, time: 1724013543057L }
+		{ dim: "minecraft:overworld", x: 1192, y: 59, z: 689, time: 1724013637899L }
+		{ dim: "minecraft:overworld", x: 479, y: 134, z: 632, time: 1724013642681L }
+		{ dim: "minecraft:overworld", x: 1028, y: 212, z: 711, time: 1724013691505L }
+		{ dim: "minecraft:overworld", x: 1226, y: 42, z: 722, time: 1724013704402L }
+		{ dim: "minecraft:overworld", x: 501, y: 135, z: 637, time: 1724013803552L }
+		{ dim: "minecraft:overworld", x: 2449, y: 397, z: 3379, time: 1724015299737L }
+		{ dim: "minecraft:overworld", x: 0, y: 404, z: 0, time: 1724015305844L }
+		{ dim: "minecraft:overworld", x: 2142, y: 70, z: 2160, time: 1724015331288L }
+	]
+	homes: { }
+	kit_use_times: { }
+}

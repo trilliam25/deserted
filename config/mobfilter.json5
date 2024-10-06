@@ -1,0 +1,24 @@
+/**
+ * mobfilter.json5
+ *
+ * This file controls the spawn filtering rules for mob-filter.  For details, see the docs at:
+ *
+ *    https://github.com/pcal43/mob-filter/blob/main/CONFIG.md
+ */
+
+{ 
+  rules : [
+    {
+      name: 'Disallow the vanilla creature mobs except zombie.',
+      what : 'DISALLOW_SPAWN',
+      when : {
+        entityId : [ 'minecraft:creeper', 'minecraft:skeleton', 'minecraft:enderman', 'minecraft:spider']
+      }
+    }
+  ],
+
+  // If you're having trouble, change this to DEBUG or TRACE
+  // to output diagnostic information to debug.log.
+  logLevel: 'INFO'
+}
+

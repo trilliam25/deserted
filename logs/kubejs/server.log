@@ -1,0 +1,24 @@
+[12:56:27] [INIT] KubeJS 2001.6.5-build.14; MC 2001 fabric
+[12:56:27] [INIT] Loaded plugins:
+[12:56:27] [INIT] - dev.latvian.mods.kubejs.fabric.BuiltinKubeJSFabricPlugin
+[12:56:27] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
+[12:56:27] [INFO] Loaded script server_scripts:ingsocserver.js in 0.006 s
+[12:56:27] [INFO] Loaded script server_scripts:hexserver.js in 0.007 s
+[12:56:27] [INFO] Loaded script server_scripts:trilliamserver.js in 0.011 s
+[12:56:27] [INFO] Loaded script server_scripts:albertserver.js in 0.001 s
+[12:56:27] [INFO] Loaded 4/4 KubeJS server scripts in 0.035 s with 0 errors and 0 warnings
+[12:56:27] [INFO] Scripts loaded
+[12:56:27] [INFO] Initializing recipe event...
+[12:56:27] [INFO] [minecraft:fluid] Found 37 tags, added 3 objects, removed 0 objects
+[12:56:28] [INFO] [minecraft:item] Found 793 tags, added 5 objects, removed 0 objects
+[12:56:28] [INFO] Processing recipes...
+[12:56:28] [INFO] Found 5932 recipes in 57.31 ms
+[12:56:28] [INFO] hexserver.js#469: sword
+[12:56:28] [INFO] hexserver.js#469: axe
+[12:56:28] [INFO] hexserver.js#469: pickaxe
+[12:56:28] [INFO] hexserver.js#469: shovel
+[12:56:28] [INFO] hexserver.js#469: hoe
+[12:56:28] [INFO] trilliamserver.js#4: Hello! The recipe event has fired!
+[12:56:28] [INFO] Posted recipe events in 100.0 ms
+[12:56:28] [INFO] Added 127 recipes, removed 94 recipes, modified 14 recipes, with 0 failed recipes in 29.15 ms
+[12:56:32] [INFO] Server resource reload complete!

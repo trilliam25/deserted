@@ -1,5 +1,5 @@
 [restrictions]
-talkRange = 100
+talkRange = 40
 shoutTalkRange = 100
 shoutFoodCost = 1
 opAsPlayer = false

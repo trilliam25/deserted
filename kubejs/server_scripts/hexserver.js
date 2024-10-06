@@ -163,6 +163,20 @@ ServerEvents.recipes((event) => {
       },
     ],
   });
+    
+  event.custom({
+    type: "create:filling",
+    ingredients: [
+      { item: "minecraft:glass_bottle" },
+      {
+        fluid: "dehydration:purified_water",
+        amount: 27000,
+      },
+    ],
+    results: [
+      Item.of('minecraft:potion', '{Potion:"minecraft:purified_water"}'),
+    ],
+  });
 
   event.custom({
     type: "create:emptying",
@@ -336,6 +350,16 @@ ServerEvents.recipes((event) => {
   for (const flask in Object.keys(maxFlaskQuantities)) {
     event.remove({ output: `dehydration:${flask}` });
   }
+    
+  event.shaped(
+      { item: "exposure:photograph_frame" },
+      [
+      	"AAA",
+        "A A",
+        "AAA"
+      ],
+      { A: "minecraft:stick" }
+  );
 
   event.shaped({ item: "dehydration:leather_flask" }, [
     " AA",

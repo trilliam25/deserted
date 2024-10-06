@@ -7,11 +7,11 @@
 #These are the configurations for the transceiver item.
 [transceiver]
 	#This is the range after which players can no longer be heard for amplitude modulation. Defaults to 1800.
-	maxAMDistance = 1800
+	maxAMDistance = 18000
 	#This is the range after which players can no longer be heard for frequency modulation. Defaults to 1000.
 	maxFMDistance = 1000
 	#This is the range after which audio begins to decay for frequency modulation. Defaults to 900.
-	falloffFM = 900
+	falloffFM = 5000
 	#This is whether or not using the transceiver slows the player. Defaults to true.
 	transceiverSlow = true
 	#This is the range after which audio begins to decay for amplitude modulation. Defaults to 1700.
@@ -51,7 +51,7 @@
 #These are the configurations for the transmitter block. (IN DEVELOPMENT)
 [transmitter]
 	#This is the range after which players can no longer be heard for amplitude modulation. Defaults to 4400.
-	maxAMDistance = 4400
+	maxAMDistance = 44000
 	#This is the range after which players can no longer be heard for frequency modulation. Defaults to 2200.
 	maxFMDistance = 2200
 	#This is the range after which audio begins to decay for frequency modulation. Defaults to 2000.

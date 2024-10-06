@@ -191,5 +191,5 @@ ItemEvents.rightClicked('scorchful:cactus_juice', event => {
     event.player.potionEffects.add('minecraft:weakness', 600, 1, true, false)
 })
 ItemEvents.rightClicked('scorchful:cactus_juice', event => {
-    event.player.potionEffects.add('minecraft:hunger', 20, 2, true, false)
+    event.player.potionEffects.add('minecraft:hunger', 60, 10, true, false)
 })

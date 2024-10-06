@@ -1,0 +1,50 @@
+{
+	member: {
+		name: "Member"
+		power: 1
+		condition: "always_active"
+		ftbranks.name_format: "<{name}>"
+		command.back: false
+		command.delhome: false
+		command.enderchest: false
+		command.home: false
+		command.listhomes: false
+		command.listwarps: false
+		command.me: false
+		command.move: false
+		command.msg: false
+		command.nickname: false
+		command.recording: false
+		command.rtp: false
+		command.sethome: false
+		command.spawn: false
+		command.streaming: false
+		command.teammsg: false
+		command.tell: false
+		command.tm: false
+		command.tpa: false
+		command.tpaccept: false
+		command.tpahere: false
+		command.tpdeny: false
+		command.trashcan: false
+		command.trigger: false
+		command.voicechat: false
+		command.warp: false
+	}
+	admin: {
+		name: "Admin"
+		power: 1000
+		condition: "op"
+		command.back: true
+		command.delhome: true
+		command.enderchest: true
+		command.home: true
+		command.listhomes: true
+		command.listwarps: true
+		command.nickname: true
+		command.sethome: true
+		command.spawn: true
+		command.tell: true
+		command.warp: true
+	}
+}

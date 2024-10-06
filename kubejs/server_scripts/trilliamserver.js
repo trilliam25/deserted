@@ -317,14 +317,13 @@ ServerEvents.recipes(event => {
     event.custom({
         type: "create:mixing",
         results: [
-            { fluid: "minecraft:lava", amount: 100 }
+            { fluid: "minecraft:lava", amount: convertToUnits(100) }
         ],
         ingredients: [
             { tag: "c:cobblestone" }
         ],
         heatRequirement: "heated"
     });
-
 
     // Autocannon Cartridge Filling
     event.remove({ output: 'createbigcannons:filled_autocannon_cartridge' });
@@ -1030,4 +1029,11 @@ ServerEvents.recipes(event => {
 
 
 })
-
+function convertToUnits(millibuckets) {
+    const fabricPerBucket = 81000;
+    const MBPerBucket = 1000;
+    const unitsPerMillibucket = fabricPerBucket / MBPerBucket;
+    
+    const units = Math.round(millibuckets * unitsPerMillibucket);
+    return units;
+}

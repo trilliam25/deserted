@@ -1,0 +1,642 @@
+[12:56:17] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.15.11
+[12:56:17] [main/WARN]: Warnings were found!
+ - Mod 'Dynamic Lights' (dynamiclights) 1.8.2+mod recommends any version of modmenu, which is missing!
+	 - You should install any version of modmenu for the optimal experience.
+ - Mod 'Dynamic Lights' (dynamiclights) 1.8.2+mod recommends any version of modmenu-badges-lib, which is missing!
+	 - You should install any version of modmenu-badges-lib for the optimal experience.
+ - Mod 'Dynamic Lights' (dynamiclights) 1.8.2+mod recommends any version of midnightlib, which is missing!
+	 - You should install any version of midnightlib for the optimal experience.
+[12:56:17] [main/INFO]: Loading 190 mods:
+	- animated_guns 1.3
+	- apocalypse 1.1.1
+	- appleskin 2.5.1+mc1.20
+	- architectury 9.2.14
+	- azurelib 2.0.30
+	- cardinal-components 5.2.2
+	   |-- cardinal-components-base 5.2.2
+	   |-- cardinal-components-block 5.2.2
+	   |-- cardinal-components-chunk 5.2.2
+	   |-- cardinal-components-entity 5.2.2
+	   |-- cardinal-components-item 5.2.2
+	   |-- cardinal-components-level 5.2.2
+	   |-- cardinal-components-scoreboard 5.2.2
+	   \-- cardinal-components-world 5.2.2
+	- chunkumulator 1.0.3+MC1.20.1
+	- cloth-config 11.1.118
+	   \-- cloth-basic-math 0.6.1
+	- collective 7.70
+	- copycats 1.3.8+mc.1.20.1-fabric
+	- coroutil 1.20.1-1.3.7
+	- crawl 0.12.0
+	   \-- mm 2.3
+	- create 0.5.1-f-build.1417+mc1.20.1
+	   |-- com_electronwill_night-config_core 3.6.6
+	   |-- com_electronwill_night-config_toml 3.6.6
+	   |-- com_google_code_findbugs_jsr305 3.0.2
+	   |-- flywheel 0.6.10-2
+	   |-- milk 1.2.60
+	   |    \-- dripstone_fluid_lib 3.0.2
+	   |-- porting_lib_brewing 2.3.2+1.20.1
+	   |-- porting_lib_models 2.3.2+1.20.1
+	   |    \-- porting_lib_model_loader 2.3.2+1.20.1
+	   |-- porting_lib_obj_loader 2.3.2+1.20.1
+	   |    \-- porting_lib_model_loader 2.3.2+1.20.1
+	   |-- porting_lib_tags 3.0
+	   |-- reach-entity-attributes 2.4.0
+	   \-- registrate-fabric 1.3.62-MC1.20.1
+	        |-- porting_lib_data 2.1.1090+1.20
+	        \-- porting_lib_model_generators 2.1.1090+1.20
+	             \-- porting_lib_model_materials 2.1.1090+1.20
+	- createbigcannons 0.5.4-nightly-8b9cea6
+	   \-- ritchiesprojectilelib 1.0.0-369e88d+1.20.1-fabric
+	        \-- porting_lib_utility 2.1.1127+1.20
+	             \-- porting_lib_gametest 2.1.1127+1.20
+	- createdeco 2.0.2-1.20.1-fabric
+	- createdieselgenerators 2.1.4
+	- creativecore 2.11.30
+	   \-- net_minecraftforge_eventbus 6.0.3
+	- cupboard 1.20.1-2.7
+	- dehydration 1.3.6
+	- deserted_camels 1.0.0
+	- dynamiclights 1.8.2+mod
+	- dynview 1.20.1-4.0
+	- exposure 1.7.2
+	- fabric-api 0.92.2+1.20.1
+	   |-- fabric-api-base 0.4.31+1802ada577
+	   |-- fabric-api-lookup-api-v1 1.6.36+1802ada577
+	   |-- fabric-biome-api-v1 13.0.13+1802ada577
+	   |-- fabric-block-api-v1 1.0.11+1802ada577
+	   |-- fabric-block-view-api-v2 1.0.1+1802ada577
+	   |-- fabric-blockrenderlayer-v1 1.1.41+1802ada577
+	   |-- fabric-client-tags-api-v1 1.1.2+1802ada577
+	   |-- fabric-command-api-v1 1.2.34+f71b366f77
+	   |-- fabric-command-api-v2 2.2.13+1802ada577
+	   |-- fabric-commands-v0 0.2.51+df3654b377
+	   |-- fabric-containers-v0 0.1.64+df3654b377
+	   |-- fabric-content-registries-v0 4.0.11+1802ada577
+	   |-- fabric-convention-tags-v1 1.5.5+1802ada577
+	   |-- fabric-crash-report-info-v1 0.2.19+1802ada577
+	   |-- fabric-data-attachment-api-v1 1.0.0+de0fd6d177
+	   |-- fabric-data-generation-api-v1 12.3.4+1802ada577
+	   |-- fabric-dimensions-v1 2.1.54+1802ada577
+	   |-- fabric-entity-events-v1 1.6.0+1c78457f77
+	   |-- fabric-events-interaction-v0 0.6.2+1802ada577
+	   |-- fabric-events-lifecycle-v0 0.2.63+df3654b377
+	   |-- fabric-game-rule-api-v1 1.0.40+1802ada577
+	   |-- fabric-item-api-v1 2.1.28+1802ada577
+	   |-- fabric-item-group-api-v1 4.0.12+1802ada577
+	   |-- fabric-key-binding-api-v1 1.0.37+1802ada577
+	   |-- fabric-keybindings-v0 0.2.35+df3654b377
+	   |-- fabric-lifecycle-events-v1 2.2.22+1802ada577
+	   |-- fabric-loot-api-v2 1.2.1+1802ada577
+	   |-- fabric-loot-tables-v1 1.1.45+9e7660c677
+	   |-- fabric-message-api-v1 5.1.9+1802ada577
+	   |-- fabric-mining-level-api-v1 2.1.50+1802ada577
+	   |-- fabric-model-loading-api-v1 1.0.3+1802ada577
+	   |-- fabric-models-v0 0.4.2+9386d8a777
+	   |-- fabric-networking-api-v1 1.3.11+1802ada577
+	   |-- fabric-networking-v0 0.3.51+df3654b377
+	   |-- fabric-object-builder-api-v1 11.1.3+1802ada577
+	   |-- fabric-particles-v1 1.1.2+1802ada577
+	   |-- fabric-recipe-api-v1 1.0.21+1802ada577
+	   |-- fabric-registry-sync-v0 2.3.3+1802ada577
+	   |-- fabric-renderer-api-v1 3.2.1+1802ada577
+	   |-- fabric-renderer-indigo 1.5.2+85287f9f77
+	   |-- fabric-renderer-registries-v1 3.2.46+df3654b377
+	   |-- fabric-rendering-data-attachment-v1 0.3.37+92a0d36777
+	   |-- fabric-rendering-fluids-v1 3.0.28+1802ada577
+	   |-- fabric-rendering-v0 1.1.49+df3654b377
+	   |-- fabric-rendering-v1 3.0.8+1802ada577
+	   |-- fabric-resource-conditions-api-v1 2.3.8+1802ada577
+	   |-- fabric-resource-loader-v0 0.11.10+1802ada577
+	   |-- fabric-screen-api-v1 2.0.8+1802ada577
+	   |-- fabric-screen-handler-api-v1 1.3.30+1802ada577
+	   |-- fabric-sound-api-v1 1.0.13+1802ada577
+	   |-- fabric-transfer-api-v1 3.3.5+8dd72ea377
+	   \-- fabric-transitive-access-wideners-v1 4.3.1+1802ada577
+	- fabric-language-kotlin 1.11.0+kotlin.2.0.0
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.0.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.0.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.0.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.0.0
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.24.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.8.1
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.8.1
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.6.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.6.3
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.6.3
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.6.3
+	- fabricloader 0.15.11
+	- farmersdelight 1.20.1-2.1.1+refabricated
+	   |-- mm 2.3
+	   |-- porting_lib_accessors 2.3.4+1.20.1
+	   |    \-- porting_lib_core 2.3.4+1.20.1
+	   |-- porting_lib_base 2.3.4+1.20.1
+	   |    |-- com_electronwill_night-config_core 3.6.6
+	   |    |-- com_electronwill_night-config_toml 3.6.6
+	   |    |-- porting_lib_attributes 2.3.4+1.20.1
+	   |    |-- porting_lib_common 2.3.4+1.20.1
+	   |    |-- porting_lib_core 2.3.4+1.20.1
+	   |    |-- porting_lib_entity 2.3.4+1.20.1
+	   |    |-- porting_lib_fluids 2.3.4+1.20.1
+	   |    |-- porting_lib_mixin_extensions 2.3.4+1.20.1
+	   |    |-- porting_lib_transfer 2.3.4+1.20.1
+	   |    \-- reach-entity-attributes 2.4.0
+	   |-- porting_lib_client_events 2.3.4+1.20.1
+	   |    \-- porting_lib_core 2.3.4+1.20.1
+	   |-- porting_lib_config 2.3.4+1.20.1
+	   |    |-- com_electronwill_night-config_core 3.6.6
+	   |    |-- com_electronwill_night-config_toml 3.6.6
+	   |    \-- porting_lib_core 2.3.4+1.20.1
+	   |-- porting_lib_extensions 2.3.4+1.20.1
+	   |    |-- porting_lib_attributes 2.3.4+1.20.1
+	   |    |-- porting_lib_common 2.3.4+1.20.1
+	   |    |-- porting_lib_core 2.3.4+1.20.1
+	   |    \-- reach-entity-attributes 2.4.0
+	   |-- porting_lib_lazy_registration 2.3.4+1.20.1
+	   |    \-- porting_lib_core 2.3.4+1.20.1
+	   |-- porting_lib_loot 2.3.4+1.20.1
+	   |    \-- porting_lib_core 2.3.4+1.20.1
+	   |-- porting_lib_networking 2.3.4+1.20.1
+	   |    \-- porting_lib_core 2.3.4+1.20.1
+	   |-- porting_lib_recipe_book_categories 2.3.4+1.20.1
+	   |    \-- porting_lib_core 2.3.4+1.20.1
+	   |-- porting_lib_registries 2.3.4+1.20.1
+	   |    \-- porting_lib_core 2.3.4+1.20.1
+	   \-- porting_lib_tool_actions 2.3.4+1.20.1
+	        \-- porting_lib_core 2.3.4+1.20.1
+	- ferritecore 6.0.1
+	- forgeconfigapiport 8.0.0
+	- ftbessentials 2001.2.2
+	- ftblibrary 2001.2.4
+	- ftbranks 2001.1.3
+	- handcrafted 3.0.6
+	- immersivefluids 1.0.0
+	- inertiaanticheat 0.0.7.2+1.20.1
+	   |-- com_moandjiezana_toml_toml4j 0.7.2
+	   \-- fabric-permissions-api-v0 0.2-SNAPSHOT
+	- infbanlay 1.2.0
+	- java 17
+	- jei 15.3.0.8
+	- jeresources 1.4.0.247
+	- konkrete 1.8.1
+	- krypton 0.2.3
+	   \-- com_velocitypowered_velocity-native 3.2.0-SNAPSHOT
+	- kubejs 2001.6.5-build.14
+	- lexiconfig 1.3.11
+	- lithium 0.11.2
+	- localizedchat 5.1.2
+	- memorysettings 1.20.1-5.3
+	- metrics 1.0.0
+	- minecraft 1.20.1
+	- mobfilter 0.4.2+1.20.1
+	   \-- org_yaml_snakeyaml 2.1
+	- moonlight 1.20-2.12.6
+	- niftycarts 3.0.2+1.20.1
+	- nochatreports 1.20.1-v2.2.2
+	   |-- fabric-rendering-v1 3.0.6+b3afc78b82
+	   \-- fabric-screen-api-v1 2.0.6+b3afc78b82
+	- observable 4.4.1
+	- puzzleslib 8.1.21
+	   \-- puzzlesaccessapi 8.0.7
+	- railways 1.6.4+fabric-mc1.20.1
+	   \-- mm 2.3
+	- resourcefullib 2.1.25
+	   |-- com_teamresourceful_bytecodecs 1.0.2
+	   \-- com_teamresourceful_yabn 1.0.3
+	- rhino 2001.2.2-build.18
+	- scorchful 0.6.3
+	- shieldbannerfix 5.0.1
+	- simpleradio 2.4.6.1
+	   \-- polymer-registry-sync-manipulator 0.5.19+1.20.1
+	- sliceanddice 3.2.2
+	- smartnametags 2.0
+	- starterkit 7.0
+	- supplementaries 1.20-2.8.17
+	   |-- mixinextras 0.3.6
+	   \-- mixinsquared 0.1.1
+	- surveyor 0.5.1+1.20
+	   \-- folk_sisby_kaleido-config 0.1.1+1.1.0-beta.3
+	- thermoo 2.3.2
+	- tumbleweed 0.5.5
+	- universal-graves 3.0.1+1.20.1
+	   |-- common-protection-api 1.0.0
+	   |-- fabric-permissions-api-v0 0.2-SNAPSHOT
+	   |-- placeholder-api 2.1.3+1.20.1
+	   |-- polymer-core 0.5.19+1.20.1
+	   |    |-- polymer-networking 0.5.19+1.20.1
+	   |    |    \-- polymer-common 0.5.19+1.20.1
+	   |    |         \-- packet_tweaker 0.4.0+1.19.4
+	   |    \-- polymer-registry-sync-manipulator 0.5.19+1.20.1
+	   |-- polymer-resource-pack 0.5.19+1.20.1
+	   |    \-- polymer-common 0.5.19+1.20.1
+	   |         \-- packet_tweaker 0.4.0+1.19.4
+	   |-- polymer-virtual-entity 0.5.19+1.20.1
+	   |    \-- polymer-common 0.5.19+1.20.1
+	   |         \-- packet_tweaker 0.4.0+1.19.4
+	   |-- predicate-api 0.2.1+1.20.1
+	   |-- server_translations_api 2.0.0+1.20
+	   |    \-- packet_tweaker 0.4.0+1.19.4
+	   \-- sgui 1.2.2+1.20
+	- visualworkbench 8.0.0
+	- voicechat 1.20.1-2.5.19
+	   \-- fabric-key-binding-api-v1 1.0.36+fb8d95da82
+	- watut 1.20.1-1.1.1
+[12:56:17] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/home/container/libraries/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[12:56:17] [main/INFO]: Compatibility level set to JAVA_17
+[12:56:17] [main/WARN]: Reference map 'coroutil.refmap.json' for coroutil_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:56:17] [main/WARN]: Reference map 'createdeco-fabric-refmap.json' for createdeco.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:56:17] [main/WARN]: Reference map '${archivesBaseName}-refmap.json' for createdieselgenerators.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:56:18] [main/WARN]: Reference map 'JustEnoughResources-Fabric-1.20.1-refmap.json' for jeresources.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:56:18] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 2 override(s) found
+[12:56:18] [main/WARN]: Reference map 'ritchiesprojectilelib-fabric-refmap.json' for ritchiesprojectilelib-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:56:18] [main/WARN]: Reference map 'starterkit_fabric.refmap.json' for starterkit_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:56:18] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
+[12:56:18] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_tool_actions.mixins.json:FishingHookRendererMixin from mod porting_lib_tool_actions
+[12:56:18] [main/WARN]: Error loading class: com/firemerald/additionalplacements/common/ConfigCommon (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/common/ConfigCommon)
+[12:56:18] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
+[12:56:18] [main/WARN]: @Mixin target com.firemerald.additionalplacements.block.AdditionalPlacementBlock was not found copycats-common.mixins.json:compat.additionalplacements.PlacementBlockMixin from mod copycats
+[12:56:18] [main/WARN]: Error loading class: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults (java.lang.ClassNotFoundException: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults)
+[12:56:18] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/BlockOcclusionCache (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/BlockOcclusionCache)
+[12:56:18] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/BlockRenderer (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/BlockRenderer)
+[12:56:18] [main/WARN]: Error loading class: net/minecraft/class_465 (java.lang.ClassNotFoundException: net/minecraft/class_465)
+[12:56:18] [main/WARN]: @Mixin target net.minecraft.class_465 was not found creativecore.fabric.mixins.json:AbstractContainerScreenMixin from mod creativecore
+[12:56:18] [main/WARN]: Error loading class: net/minecraft/class_5684 (java.lang.ClassNotFoundException: net/minecraft/class_5684)
+[12:56:18] [main/WARN]: @Mixin target net.minecraft.class_5684 was not found dehydration.mixins.json:TooltipComponentMixin from mod dehydration
+[12:56:18] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[12:56:18] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [krypton]) disables it and children
+[12:56:18] [main/WARN]: Error loading class: net/minecraft/class_5616 (java.lang.ClassNotFoundException: net/minecraft/class_5616)
+[12:56:18] [main/WARN]: @Mixin target net.minecraft.class_5616 was not found registrate-fabric.mixins.json:accessor.BlockEntityRenderersAccessor from mod registrate-fabric
+[12:56:18] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
+[12:56:18] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
+[12:56:18] [main/WARN]: Error loading class: net/minecraft/class_314 (java.lang.ClassNotFoundException: net/minecraft/class_314)
+[12:56:18] [main/WARN]: @Mixin target net.minecraft.class_314 was not found mixins.mm.json:net.minecraft.class_314 from mod mm
+[12:56:18] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
+[12:56:19] [main/INFO]: Mixing common.MixinFriendlyByteBuf from mixins/common/nochatreports.mixins.json into net.minecraft.class_2540
+[12:56:19] [main/INFO]: Renaming synthetic method lambda$onWriteJsonWithCodec$1(Ljava/lang/Object;Ljava/lang/String;)Lio/netty/handler/codec/EncoderException; to md9ace57$nochatreports$lambda$onWriteJsonWithCodec$1$0 in mixins/common/nochatreports.mixins.json:common.MixinFriendlyByteBuf from mod nochatreports
+[12:56:19] [main/INFO]: Renaming synthetic method lambda$onReadJsonWithCodec$0(Ljava/lang/String;)Lio/netty/handler/codec/DecoderException; to md9ace57$nochatreports$lambda$onReadJsonWithCodec$0$1 in mixins/common/nochatreports.mixins.json:common.MixinFriendlyByteBuf from mod nochatreports
+[12:56:19] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on porting_lib_entity.mixins.json:common.LivingEntityMixin from mod porting_lib_entity::handler$cmj000$porting_lib_entity$port_lib$onFinishUsing exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[12:56:20] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
+[12:56:20] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
+[12:56:20] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
+[12:56:20] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
+[12:56:20] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
+[12:56:22] [main/INFO]: Mixing server.MixinServerGamePacketListenerImpl from mixins/common/nochatreports.mixins.json into net.minecraft.class_3244
+[12:56:23] [main/INFO]: Registering ModItems for anim_guns
+[12:56:23] [main/INFO]: Registering ModSounds for anim_guns
+[12:56:23] [main/INFO]: Registering GunAttributes for anim_guns
+[12:56:23] [main/INFO]: Registered azurelib config for auto-sync function
+[12:56:23] [main/INFO]: Loading Collective version 7.70.
+[12:56:23] [main/INFO]: fabric loader environment detected
+[12:56:24] [main/INFO]: Registering items for Create Deco
+[12:56:24] [main/INFO]: Registering blocks for Create Deco
+[12:56:24] [main/INFO]: Create Deco is accessing Porting Lib on a Fabric server!
+[12:56:25] [main/INFO]: placard tooltip was null
+[12:56:25] [main/INFO]: placard tooltip was null
+[12:56:25] [main/INFO]: placard tooltip was null
+[12:56:25] [main/INFO]: placard tooltip was null
+[12:56:25] [main/INFO]: placard tooltip was null
+[12:56:25] [main/INFO]: placard tooltip was null
+[12:56:25] [main/INFO]: placard tooltip was null
+[12:56:25] [main/INFO]: placard tooltip was null
+[12:56:25] [main/INFO]: placard tooltip was null
+[12:56:25] [main/INFO]: placard tooltip was null
+[12:56:25] [main/INFO]: placard tooltip was null
+[12:56:25] [main/INFO]: placard tooltip was null
+[12:56:25] [main/INFO]: placard tooltip was null
+[12:56:25] [main/INFO]: placard tooltip was null
+[12:56:25] [main/INFO]: placard tooltip was null
+[12:56:25] [main/INFO]: Loaded config for: cupboard.json
+[12:56:25] [main/INFO]: [Dynamic Lights] Loaded Dynamic Lights by Tschipcraft successfully!
+[12:56:25] [main/ERROR]: No data fixer registered for rotten_tomato
+[12:56:25] [main/INFO]: Registering C2S receiver with id ftblibrary:edit_nbt_response
+[12:56:25] [main/ERROR]: No data fixer registered for handcrafted
+[12:56:25] [main/INFO]: [STDOUT]: Dihydrogen Monoxide Reloaded has loaded!
+[12:56:25] [main/INFO]: [InertiaAntiCheat] Initializing InertiaAntiCheat!
+[12:56:25] [main/INFO]: [KONKRETE] Successfully initialized!
+[12:56:25] [main/INFO]: [KONKRETE] Server-side libs ready to use!
+[12:56:25] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 3.0.x (Linux x86_64)
+[12:56:25] [main/INFO]: Loaded common.properties
+[12:56:25] [main/INFO]: Loaded dev.properties
+[12:56:25] [main/INFO]: Looking for KubeJS plugins...
+[12:56:25] [main/INFO]: Found plugin source kubejs
+[12:56:25] [main/WARN]: Plugin dev.latvian.mods.kubejs.fabric.BuiltinKubeJSFabricClientPlugin does not load on server side, skipping
+[12:56:25] [main/INFO]: Found plugin source exposure
+[12:56:25] [main/INFO]: Done in 13.60 ms
+[12:56:25] [main/INFO]: Loading Rhino Minecraft remapper...
+[12:56:25] [main/INFO]: Rhino properties loaded.
+[12:56:25] [main/INFO]: Loading mappings for 1.20.1
+[12:56:25] [main/INFO]: Done in 0.050 s
+[12:56:25] [main/INFO]: [STDERR]: [Rhino] Failed to get declared methods for dev.latvian.mods.kubejs.bindings.KMath: java.lang.NoClassDefFoundError: net/minecraft/class_4587
+[12:56:25] [main/INFO]: trilliamstartup.js#3: Hello, World! (You will only see this line once in console, during startup)
+[12:56:25] [main/INFO]: Loaded script startup_scripts:trilliamstartup.js in 0.03 s
+[12:56:25] [main/INFO]: Loaded script startup_scripts:ingsocstartup.js in 0.001 s
+[12:56:25] [main/INFO]: Loaded script startup_scripts:hexstartup.js in 0.003 s
+[12:56:25] [main/INFO]: Loaded 3/3 KubeJS startup scripts in 0.146 s with 0 errors and 0 warnings
+[12:56:25] [main/INFO]: Registering C2S receiver with id kubejs:send_data_from_client
+[12:56:25] [main/INFO]: Registering C2S receiver with id kubejs:first_click
+[12:56:25] [main/INFO]: Shelved lexicon com.codinglitch.simpleradio.SimpleRadioServerConfig@409490ee!
+[12:56:25] [main/INFO]: Cataloging lexicon com.codinglitch.simpleradio.SimpleRadioServerConfig@409490ee!
+[12:56:25] [main/INFO]: Lexiconfig cataloging completed!
+[12:56:25] [main/INFO]: Loaded config for: memorysettings.json
+[12:56:25] [main/WARN]: You have more memory allocated(32000mb) than recommended for this pack, the maximum is: 8500mb.
+The recommended amount for your system is: 8500 mb.
+
+[12:56:25] [main/INFO]: Definitely not up to no good
+[12:56:25] [main/INFO]: KONNICHIWA ZA WARUDO!
+[12:56:25] [main/INFO]: Default JVM text encoding is: UTF-8
+[12:56:25] [main/INFO]: Reading config file NoChatReports/NCR-Common.json...
+[12:56:25] [main/INFO]: Writing config file NoChatReports/NCR-Common.json...
+[12:56:25] [main/INFO]: Registering class observable.net.BetterChannel$PartialPacketBegin
+[12:56:26] [main/INFO]: Registering C2S receiver with id minecraft:channel/observable/61a49a35c5283c0aaa7b0dfea5b7a53a
+[12:56:26] [main/INFO]: Registered class observable.net.BetterChannel$PartialPacketBegin
+[12:56:26] [main/INFO]: Registering class observable.net.BetterChannel$PartialPacketData
+[12:56:26] [main/INFO]: Registering C2S receiver with id minecraft:channel/observable/3dd73fd88be832559bc3a3c4a2e63b4a
+[12:56:26] [main/INFO]: Registered class observable.net.BetterChannel$PartialPacketData
+[12:56:26] [main/INFO]: Registering class observable.net.C2SPacket$InitTPSProfile
+[12:56:26] [main/INFO]: Registering C2S receiver with id minecraft:channel/observable/b453c08f23b83b82b690c31bf8b2a45a
+[12:56:26] [main/INFO]: Registered class observable.net.C2SPacket$InitTPSProfile
+[12:56:26] [main/INFO]: Registering class observable.net.C2SPacket$RequestAvailability
+[12:56:26] [main/INFO]: Registering C2S receiver with id minecraft:channel/observable/0c662822629034678f5a8f0e70375315
+[12:56:26] [main/INFO]: Registered class observable.net.C2SPacket$RequestAvailability
+[12:56:26] [main/INFO]: Registering class observable.net.S2CPacket$ProfilingStarted
+[12:56:26] [main/INFO]: Registering C2S receiver with id minecraft:channel/observable/2e815604a29b3a5cbfe0208e619d86c4
+[12:56:26] [main/INFO]: Registered class observable.net.S2CPacket$ProfilingStarted
+[12:56:26] [main/INFO]: Registering class observable.net.S2CPacket$ProfilingCompleted
+[12:56:26] [main/INFO]: Registering C2S receiver with id minecraft:channel/observable/9ae83199b65a3768862799cc5e461a02
+[12:56:26] [main/INFO]: Registered class observable.net.S2CPacket$ProfilingCompleted
+[12:56:26] [main/INFO]: Registering class observable.net.S2CPacket$ProfilerInactive
+[12:56:26] [main/INFO]: Registering C2S receiver with id minecraft:channel/observable/ae8dfae1238e312397aa53e9d14c45ca
+[12:56:26] [main/INFO]: Registered class observable.net.S2CPacket$ProfilerInactive
+[12:56:26] [main/INFO]: Registering class observable.net.S2CPacket$ProfilingResult
+[12:56:26] [main/INFO]: Registering C2S receiver with id minecraft:channel/observable/3a94cae7336038df9152bcb7b4b94825
+[12:56:26] [main/INFO]: Registered class observable.net.S2CPacket$ProfilingResult
+[12:56:26] [main/INFO]: Registering class observable.net.S2CPacket$Availability
+[12:56:26] [main/INFO]: Registering C2S receiver with id minecraft:channel/observable/c86a824e756d312396d1ba30e943e6aa
+[12:56:26] [main/INFO]: Registered class observable.net.S2CPacket$Availability
+[12:56:26] [main/INFO]: Constructing common components for puzzleslib:main
+[12:56:26] [main/INFO]: Registered bogey styles from railways
+[12:56:26] [main/INFO]: Registering data fixers
+[12:56:26] [main/INFO]: 0 Datafixer optimizations took 0 milliseconds
+[12:56:26] [main/INFO]: Registering tracks for Hex Casting
+[12:56:26] [main/INFO]: Registering tracks for Oh The Biomes You'll Go
+[12:56:26] [main/INFO]: Registering tracks for Blue Skies
+[12:56:26] [main/INFO]: Registering tracks for Twilight Forest
+[12:56:26] [main/INFO]: Registering tracks for Biomes O' Plenty
+[12:56:26] [main/INFO]: Registering tracks for Nature's Spirit
+[12:56:26] [main/INFO]: Registering tracks for Dreams and Desires
+[12:56:26] [main/INFO]: Registering tracks for Quark
+[12:56:26] [main/INFO]: Registering tracks for TerraFirmaCraft
+[12:56:26] [main/INFO]: Scorchful initialized!
+[12:56:26] [main/INFO]: [SmartNameTags] V2 Started!
+[12:56:26] [main/INFO]: Loaded config supplementaries-common.json
+[12:56:26] [main/INFO]: Creating environment manager EnvironmentManager{controller=com.github.thedeathlycow.thermoo.api.temperature.EmptyEnvironmentController}
+[12:56:26] [main/INFO]: Thermoo initialized
+[12:56:26] [main/INFO]: Constructing common components for visualworkbench:main
+[12:56:26] [main/INFO]: [voicechat] Compatibility version 18
+[12:56:26] [main/INFO]: [voicechat] Loading plugins
+[12:56:26] [main/INFO]: [voicechat] Loaded 1 plugin(s)
+[12:56:26] [main/INFO]: [voicechat] Initializing plugins
+[12:56:26] [main/INFO]: [voicechat] Initialized 1 plugin(s)
+[12:56:26] [main/INFO]: [voicechat] Registering events for 'simpleradio'
+[12:56:26] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[12:56:27] [main/INFO]: Initialized block sets in 8ms
+[12:56:27] [main/ERROR]: No data fixer registered for dispenser_minecart
+[12:56:27] [main/ERROR]: No data fixer registered for falling_urn
+[12:56:27] [main/ERROR]: No data fixer registered for falling_ash
+[12:56:27] [main/ERROR]: No data fixer registered for falling_sack
+[12:56:27] [main/ERROR]: No data fixer registered for brick_projectile
+[12:56:27] [main/ERROR]: No data fixer registered for bomb
+[12:56:27] [main/ERROR]: No data fixer registered for rope_arrow
+[12:56:27] [main/ERROR]: No data fixer registered for slingshot_projectile
+[12:56:27] [main/INFO]: Initialized color sets in 24ms
+[12:56:27] [main/INFO]: Finished mod setup in: [10, 0, 0, 0, 0, 0, 8, 3, 0] ms
+[12:56:27] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[12:56:27] [main/INFO]: Generated runtime SERVER_DATA for pack Supplementaries Generated Pack (supplementaries) in: 17 ms
+[12:56:27] [main/INFO]: Generated runtime SERVER_DATA for pack Supplementaries Generated Pack (supplementaries) in: 1 ms
+[12:56:27] [main/INFO]: [STDERR]: [Rhino] Failed to get declared methods for dev.latvian.mods.kubejs.bindings.KMath: java.lang.NoClassDefFoundError: net/minecraft/class_4587
+[12:56:27] [main/INFO]: Loaded script server_scripts:ingsocserver.js in 0.006 s
+[12:56:27] [main/INFO]: Loaded script server_scripts:hexserver.js in 0.007 s
+[12:56:27] [main/INFO]: Loaded script server_scripts:trilliamserver.js in 0.011 s
+[12:56:27] [main/INFO]: Loaded script server_scripts:albertserver.js in 0.001 s
+[12:56:27] [main/INFO]: Loaded 4/4 KubeJS server scripts in 0.035 s with 0 errors and 0 warnings
+[12:56:27] [main/INFO]: Scripts loaded
+[12:56:27] [main/INFO]: Initializing recipe event...
+[12:56:27] [main/WARN]: xaeroworldmap:no_world_map missing from registry, but requested!
+[12:56:27] [main/WARN]: xaeroworldmap:no_world_map_harmful missing from registry, but requested!
+[12:56:27] [main/WARN]: xaeroworldmap:no_cave_maps missing from registry, but requested!
+[12:56:27] [main/WARN]: xaeroworldmap:no_cave_maps_harmful missing from registry, but requested!
+[12:56:27] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[12:56:27] [main/INFO]: Loading command nodes...
+[12:56:27] [main/INFO]: Loaded 2327 command nodes
+[12:56:27] [Worker-Main-1/INFO]: [minecraft:fluid] Found 37 tags, added 3 objects, removed 0 objects
+[12:56:27] [Worker-Main-3/ERROR]: Not a JSON object: "}"; Not a JSON object: "  ]"; Not a JSON object: "    \"event_manager:setup\""; Not a JSON object: "  \"values\": ["; Not a JSON object: "{"
+[12:56:27] [Worker-Main-3/ERROR]: Couldn't read tag list event_manager:load from event_manager:tags/functions/load.json in data pack file/eventmanager 1.1.9
+java.lang.RuntimeException: Not a JSON object: "}"; Not a JSON object: "  ]"; Not a JSON object: "    \"event_manager:setup\""; Not a JSON object: "  \"values\": ["; Not a JSON object: "{"
+	at com.mojang.serialization.DataResult.lambda$getOrThrow$5(DataResult.java:101) ~[datafixerupper-6.0.8.jar:?]
+	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[datafixerupper-6.0.8.jar:?]
+	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:93) ~[datafixerupper-6.0.8.jar:?]
+	at net.minecraft.class_3503.method_33174(class_3503.java:53) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5349.method_33324(class_5349.java:68) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[12:56:27] [Worker-Main-3/ERROR]: Not a JSON object: "}"; Not a JSON object: "  ]"; Not a JSON object: "    \"event_manager:tick\""; Not a JSON object: "  \"values\": ["; Not a JSON object: "{"
+[12:56:27] [Worker-Main-3/ERROR]: Couldn't read tag list event_manager:tick from event_manager:tags/functions/tick.json in data pack file/eventmanager 1.1.9
+java.lang.RuntimeException: Not a JSON object: "}"; Not a JSON object: "  ]"; Not a JSON object: "    \"event_manager:tick\""; Not a JSON object: "  \"values\": ["; Not a JSON object: "{"
+	at com.mojang.serialization.DataResult.lambda$getOrThrow$5(DataResult.java:101) ~[datafixerupper-6.0.8.jar:?]
+	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[datafixerupper-6.0.8.jar:?]
+	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:93) ~[datafixerupper-6.0.8.jar:?]
+	at net.minecraft.class_3503.method_33174(class_3503.java:53) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5349.method_33324(class_5349.java:68) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[12:56:28] [Worker-Main-9/INFO]: [minecraft:item] Found 793 tags, added 5 objects, removed 0 objects
+[12:56:28] [Worker-Main-6/ERROR]: Couldn't parse element loot_tables:copycats:blocks/copycat_test_block
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'copycats:copycat_test_block'
+	at net.minecraft.class_3518.method_17995(class_3518.java:145) ~[server-intermediary.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.class_3518.method_15256(class_3518.java:145) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15288(class_3518.java:153) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_413(class_77.java:55) ~[server-intermediary.jar:?]
+	at net.minecraft.class_77$class_78.method_443(class_77.java:40) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_441(class_85.java:151) ~[server-intermediary.jar:?]
+	at net.minecraft.class_85$class_90.method_424(class_85.java:129) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_29319(class_79.java:86) ~[server-intermediary.jar:?]
+	at net.minecraft.class_79$class_5337.method_517(class_79.java:74) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5330$class_5333.deserialize(class_5330.java:102) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:463) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15272(class_3518.java:471) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.method_358(class_55.java:173) ~[server-intermediary.jar:?]
+	at net.minecraft.class_55$class_57.deserialize(class_55.java:169) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.class_3518.method_15291(class_3518.java:463) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3518.method_15283(class_3518.java:481) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.method_340(class_52.java:250) ~[server-intermediary.jar:?]
+	at net.minecraft.class_52$class_54.deserialize(class_52.java:246) ~[server-intermediary.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar:?]
+	at net.minecraft.class_8490.method_51205(class_8490.java:64) ~[server-intermediary.jar:?]
+	at net.minecraft.class_8490.method_51204(class_8490.java:48) ~[server-intermediary.jar:?]
+	at net.minecraft.class_60.method_51195(class_60.java:55) ~[server-intermediary.jar:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.class_60.method_51189(class_60.java:55) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[12:56:28] [main/INFO]: Processing recipes...
+[12:56:28] [main/INFO]: Found 5932 recipes in 57.31 ms
+[12:56:28] [main/INFO]: hexserver.js#469: sword
+[12:56:28] [main/INFO]: hexserver.js#469: axe
+[12:56:28] [main/INFO]: hexserver.js#469: pickaxe
+[12:56:28] [main/INFO]: hexserver.js#469: shovel
+[12:56:28] [main/INFO]: hexserver.js#469: hoe
+[12:56:28] [main/INFO]: trilliamserver.js#4: Hello! The recipe event has fired!
+[12:56:28] [main/INFO]: Posted recipe events in 100.0 ms
+[12:56:28] [main/INFO]: Added 127 recipes, removed 94 recipes, modified 14 recipes, with 0 failed recipes in 29.15 ms
+[12:56:28] [main/INFO]: Injecting recipes
+[12:56:28] [main/ERROR]: Failed to load function event_manager:whitelist
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 3: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at net.minecraft.class_2158.method_9195(class_2158.java:63) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5349.method_29451(class_5349.java:83) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[12:56:28] [main/ERROR]: Failed to load function event_manager:tick
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 5: Incorrect argument for command at position 50: ....0f}] run <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 5: Incorrect argument for command at position 50: ....0f}] run <--[HERE]
+	at net.minecraft.class_2158.method_9195(class_2158.java:63) ~[server-intermediary.jar:?]
+	at net.minecraft.class_5349.method_29451(class_5349.java:83) ~[server-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[12:56:28] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_step_from_conversion: Missing criteria, expected to find a JsonObject
+[12:56:28] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slice_from_conversion: Missing criteria, expected to find a JsonObject
+[12:56:28] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slab_from_steps: Missing criteria, expected to find a JsonObject
+[12:56:28] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_panel_from_conversion: Missing criteria, expected to find a JsonObject
+[12:56:28] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_block_from_slabs: Missing criteria, expected to find a JsonObject
+[12:56:28] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_step_from_conversion: Missing criteria, expected to find a JsonObject
+[12:56:28] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_catwalk: Missing criteria, expected to find a JsonObject
+[12:56:28] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_box: Missing criteria, expected to find a JsonObject
+[12:56:28] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_panel_from_half_panels: Missing criteria, expected to find a JsonObject
+[12:56:28] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slab_from_beams: Missing criteria, expected to find a JsonObject
+[12:56:28] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_trapdoor_from_conversion: Missing criteria, expected to find a JsonObject
+[12:56:28] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_slice_from_conversion: Missing criteria, expected to find a JsonObject
+[12:56:28] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slab_from_panels: Missing criteria, expected to find a JsonObject
+[12:56:28] [main/INFO]: Loaded 5492 advancements
+[12:56:28] [main/INFO]: Loading exposure lenses:
+[12:56:28] [main/INFO]: Lens [exposure:spyglass, FocalRange[min=55, max=200]] added.
+[12:56:28] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:ash_from_burning_mobs - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: moonlight:add_item
+[12:56:28] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:straw_from_flax - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: moonlight:add_item
+[12:56:28] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:fishing_antique_ink - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: moonlight:add_item
+[12:56:28] [main/WARN]: Could not decode GlobalLootModifier with json id supplementaries:fishing_antique_ink_treasure - error: Unknown registry key in ResourceKey[minecraft:root / porting_lib:global_loot_modifier_serializers]: moonlight:add_item
+[12:56:28] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 58 translation keys
+[12:56:28] [main/INFO]: Loaded 27 flute songs
+[12:56:28] [main/INFO]: Loaded 1 global temperature effect
+[12:56:28] [main/INFO]: Loaded 10 type specific temperature effects
+[12:56:31] [main/INFO]: Finished additional setup in 8 ms
+[12:56:31] [main/INFO]: Applied 7 data villager trades
+[12:56:31] [main/INFO]: Mixing server.MixinDedicatedServer from mixins/common/nochatreports.mixins.json into net.minecraft.class_3176
+[12:56:31] [main/INFO]: Mixing server.MixinPlayerList from mixins/common/nochatreports.mixins.json into net.minecraft.class_3324
+[12:56:31] [main/INFO]: Applied 195 biome modifications to 59 of 64 new biomes in 8.260 ms
+[12:56:31] [Server thread/INFO]: [MobFilter] Loading config from config/mobfilter.json5
+[12:56:31] [Server thread/INFO]: [MobFilter] 1 rule(s) loaded:
+[12:56:31] [Server thread/INFO]: - FilterRule[ruleName=Disallow the vanilla creature mobs except zombie., checks=[EntityIdCheck[entityMatcher=[minecraft:creeper, minecraft:skeleton, minecraft:enderman, minecraft:spider][]]], action=DISALLOW_SPAWN]
+[12:56:31] [Server thread/INFO]: [MobFilter] Log level is INFO
+[12:56:31] [Server thread/INFO]: Initializing environment controller...
+[12:56:31] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[12:56:31] [Server thread/INFO]: Loading properties
+[12:56:31] [Server thread/INFO]: Default game type: SURVIVAL
+[12:56:31] [Server thread/INFO]: Generating keypair
+[12:56:31] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25707
+[12:56:31] [Server thread/INFO]: Using epoll channel type
+[12:56:31] [Server thread/INFO]: Loaded config for: dynamicview.json
+[12:56:31] [Server thread/INFO]: Preparing level "cd_desert_07"
+[12:56:31] [Server thread/INFO]: [Surveyor] Loading data for minecraft:overworld
+[12:56:32] [Server thread/INFO]: [Surveyor] Finished loading data for minecraft:overworld
+[12:56:32] [Server thread/INFO]: [Surveyor] Loading data for minecraft:the_end
+[12:56:32] [Server thread/INFO]: [Surveyor] Finished loading data for minecraft:the_end
+[12:56:32] [Server thread/INFO]: [Surveyor] Loading data for minecraft:the_nether
+[12:56:32] [Server thread/INFO]: [Surveyor] Finished loading data for minecraft:the_nether
+[12:56:32] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:56:32] [Server thread/INFO]: Server resource reload complete!
+[12:56:34] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[12:56:34] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[12:56:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[12:56:34] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[12:56:34] [Server thread/INFO]: Time elapsed: 2137 ms
+[12:56:34] [Server thread/INFO]: Done (3.443s)! For help, type "help"
+[12:56:34] [Server thread/INFO]: Starting GS4 status listener
+[12:56:34] [Server thread/INFO]: Thread Query Listener started
+[12:56:34] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[12:56:34] [Server thread/INFO]: Mixing common.MixinServerStatus from mixins/common/nochatreports.mixins.json into net.minecraft.class_2926
+[12:56:34] [Server thread/INFO]: Loaded 2 ranks
+[12:56:34] [Server thread/INFO]: Registered thread Server thread
+[12:56:35] [Server thread/INFO]: Loaded 0 items attribute modifier(s)
+[12:56:35] [VoiceChatServerThread/INFO]: [voicechat] Using server-ip as bind address: 0.0.0.0
+[12:56:35] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 0.0.0.0:15707
+[12:56:35] [Server thread/INFO]: Added receiver 3d86c20d-2cb9-4165-9639-0ce02d0a86f1 to frequency 100.00
+[13:01:06] [Netty Epoll Server IO #1/INFO]: Mixing server.MixinServerboundChatCommandPacket from mixins/common/nochatreports.mixins.json into net.minecraft.class_7472
+[13:01:06] [Netty Epoll Server IO #1/INFO]: Mixing server.MixinServerboundChatPacket from mixins/common/nochatreports.mixins.json into net.minecraft.class_2797
+[13:01:06] [Netty Epoll Server IO #1/INFO]: Mixing server.MixinServerboundChatSessionUpdatePacket from mixins/common/nochatreports.mixins.json into net.minecraft.class_7861
+[13:14:18] [Server thread/INFO]: Stopping the server
+[13:14:18] [Server thread/INFO]: Invalidated damage temperature effect registry cache
+[13:14:18] [Server thread/INFO]: Resetting environment controller...
+[13:14:18] [Server thread/INFO]: Stopping server
+[13:14:18] [Server thread/INFO]: Saving players
+[13:14:18] [Server thread/INFO]: Saving worlds
+[13:14:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[cd_desert_07]'/minecraft:overworld
+[13:14:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[cd_desert_07]'/minecraft:the_end
+[13:14:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[cd_desert_07]'/minecraft:the_nether
+[13:14:19] [Server thread/INFO]: [Surveyor] Saving server data
+[13:14:19] [Server thread/INFO]: [Surveyor] Finished saving server data
+[13:14:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (cd_desert_07): All chunks are saved
+[13:14:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:14:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:14:19] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[13:14:19] [Server thread/INFO]: Thread Query Listener stopped

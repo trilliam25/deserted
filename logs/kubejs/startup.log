@@ -1,0 +1,9 @@
+[12:56:25] [INIT] KubeJS 2001.6.5-build.14; MC 2001 fabric
+[12:56:25] [INIT] Loaded plugins:
+[12:56:25] [INIT] - dev.latvian.mods.kubejs.fabric.BuiltinKubeJSFabricPlugin
+[12:56:25] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
+[12:56:25] [INFO] trilliamstartup.js#3: Hello, World! (You will only see this line once in console, during startup)
+[12:56:25] [INFO] Loaded script startup_scripts:trilliamstartup.js in 0.03 s
+[12:56:25] [INFO] Loaded script startup_scripts:ingsocstartup.js in 0.001 s
+[12:56:25] [INFO] Loaded script startup_scripts:hexstartup.js in 0.003 s
+[12:56:25] [INFO] Loaded 3/3 KubeJS startup scripts in 0.146 s with 0 errors and 0 warnings

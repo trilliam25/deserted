@@ -1,0 +1,9 @@
+{
+    "pack": {
+        "name": "eventmanager",
+        "id": "event_manager",
+        "pack_format": 15,
+        "version": "1.0.0",
+        "description": ""
+    }
+}
