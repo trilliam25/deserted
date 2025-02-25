@@ -16,17 +16,6 @@ ServerEvents.recipes(event => {
         })
     });
 
-    // Water Ingot
-    event.smelting('kubejs:water_ingot', 'minecraft:ice')
-    
-    // Black Dye
-    event.shapeless(
-        ("minecraft:black_dye"),
-        [
-            "minecraft:coal"
-        ]
-    )
-
     // Spyglass
     event.shaped('minecraft:spyglass', [
         'G',
@@ -49,15 +38,6 @@ ServerEvents.recipes(event => {
             "kubejs:cactus_clump",
             "kubejs:cactus_clump",
             "minecraft:glass_bottle"
-        ]
-    )
-
-    // Radio 2 speaker
-    event.shapeless(
-        ("simpleradio:speaker"),
-        [
-            "simpleradio:radio",
-            "create:iron_sheet"
         ]
     )
 
@@ -102,7 +82,7 @@ ServerEvents.recipes(event => {
             { item: "minecraft:glowstone" }
         ],
         ingredients: [
-            { fluid: "minecraft:lava", amount: 8100 },
+            { fluid: "minecraft:lava", amount: 100 },
             { item: "minecraft:blackstone" }
         ]
     });
@@ -207,15 +187,20 @@ ServerEvents.recipes(event => {
     });
 
     // Saddle
-    event.shaped('minecraft:saddle', [
+    event.custom({
+        type: "create:mechanical_crafting",
+        pattern: [
             'LLL',
             'SIS',
             'T T'
-        ], {
+        ],
+        key: {
             L: { item: "minecraft:leather" },
             I: { item: "create:iron_sheet" },
             S: { item: "minecraft:string" },
             T: { item: "minecraft:tripwire_hook" }
+        },
+        result: { item: "minecraft:saddle" }
     });
 
 
@@ -301,9 +286,9 @@ ServerEvents.recipes(event => {
             { item: "minecraft:soul_sand" }
         ],
         ingredients: [
-            { fluid: "minecraft:water", amount: 40500 },
-            { fluid: "minecraft:lava", amount: 40500 },
-            { item: "minecraft:bone" },
+            { fluid: "minecraft:water", amount: 500 },
+            { fluid: "minecraft:lava", amount: 500 },
+            { item: "minecraft:bones" },
             { item: "minecraft:sand" },
             { item: "minecraft:clay" }
         ],
@@ -312,18 +297,19 @@ ServerEvents.recipes(event => {
 
 
     // Normal Heated Lava
-    event.remove({ id: 'create:mixing/lava_from_cobble' });
+    event.remove({ output: '#minecraft:lava' });
 
     event.custom({
         type: "create:mixing",
         results: [
-            { fluid: "minecraft:lava", amount: convertToUnits(100) }
+            { fluid: "minecraft:lava", amount: 100 }
         ],
         ingredients: [
-            { tag: "c:cobblestone" }
+            { tag: "minecraft:cobblestone" }
         ],
         heatRequirement: "heated"
     });
+
 
     // Autocannon Cartridge Filling
     event.remove({ output: 'createbigcannons:filled_autocannon_cartridge' });
@@ -1026,14 +1012,5 @@ ServerEvents.recipes(event => {
         transitionalItem: { item: "kubejs:incomplete_shotgun_shell" }
     });
 
-
-
 })
-function convertToUnits(millibuckets) {
-    const fabricPerBucket = 81000;
-    const MBPerBucket = 1000;
-    const unitsPerMillibucket = fabricPerBucket / MBPerBucket;
-    
-    const units = Math.round(millibuckets * unitsPerMillibucket);
-    return units;
-}
+

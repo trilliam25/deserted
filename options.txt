@@ -32,7 +32,7 @@ glintStrength:0.75
 damageTiltStrength:1.0
 highContrast:false
 gamma:0.5
-renderDistance:6
+renderDistance:8
 simulationDistance:12
 entityDistanceScaling:1.0
 guiScale:3
@@ -43,7 +43,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","fabric","presencefootsteps:default_sound_pack","Moonlight Mods Dynamic Assets","file/Eyeless Fresh Moves v3.0.1.zip","$polymer-resources","black_icons","create:legacy_copper","file/Create_Style_Hopper_24_5_29.zip","file/Create_Ultra_v1.0.zip","file/Exposure-CreateCompatibility.zip","file/SRU_1-2.zip","file/Create Anim Guns.zip","file/FreshAnimations_v1.9.2.zip","file/Simple Create Radios V1.1.1.zip"]
+resourcePacks:["vanilla","fabric","presencefootsteps:default_sound_pack","Moonlight Mods Dynamic Assets","file/Eyeless Fresh Moves v3.0.1.zip","$polymer-resources","black_icons","create:legacy_copper","file/Create_Style_Hopper_24_5_29.zip","file/Create_Ultra_v1.0.zip","file/Exposure-CreateCompatibility.zip","file/SRU_1-2.zip","file/Simple Create Radios V1.1.zip","file/Create Anim Guns.zip","file/FreshAnimations_v1.9.2.zip"]
 incompatibleResourcePacks:["file/Create_Style_Hopper_24_5_29.zip"]
 lastServer:
 lang:en_us
@@ -154,7 +154,7 @@ key_iris.keybind.reload:key.keyboard.unknown
 key_iris.keybind.toggleShaders:key.keyboard.k
 key_iris.keybind.shaderPackSelection:key.keyboard.o
 key_iris.keybind.wireframe:key.keyboard.unknown
-soundCategory_master:0.06095431498344371
+soundCategory_master:0.5033112582781457
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

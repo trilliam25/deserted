@@ -188,8 +188,10 @@ ServerEvents.tags('item', event => {
 
 //cussy makes you dizzy
 ItemEvents.rightClicked('scorchful:cactus_juice', event => {
-    event.player.potionEffects.add('minecraft:weakness', 600, 1, true, false)
+    event.player.potionEffects.add('minecraft:weakness', 1200, 1, true, false)
 })
+
+// water make you quenchy
 ItemEvents.rightClicked('scorchful:cactus_juice', event => {
-    event.player.potionEffects.add('minecraft:hunger', 60, 10, true, false)
+    event.player.potionEffects.add('dehydration:hydration_effect', 20, 1, true, false)
 })
